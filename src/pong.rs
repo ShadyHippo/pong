@@ -173,7 +173,7 @@ pub struct ScoreText {
 
 fn initialise_scoreboard(world: &mut World) {
     let font = world.read_resource::<Loader>().load(
-        "font/square.ttf",
+        "font/squarefont/square.ttf",
         TtfFormat,
         (),
         &world.read_resource(),
